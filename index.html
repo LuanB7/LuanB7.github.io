@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1b2024">
+    <title>Luan Bonholli</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/16f8273a49.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <div class="header-logo">
+                    <img src="Imagens/Logos/LogoLuanColorida.png" alt="Luan Bonholli Logo">
+                </div>
+
+                <div class="header-links">
+                    <li><a href="index.php" style="color: white;">início</a></li>
+                    <li><a href="#secao-3">sobre mim</a></li>
+                    <li><a href="portifolio.php">meu portifólio</a></li>
+                    <li><a href="https://wa.me/5519982233738">contato</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="secao-1">
+        <div class="dentro-secao-1">
+            <div class="s1-principal-text">
+                <h1>prazer, eu sou <span class="color-text-principal">Luan</span>, <span class="color-text-principal">desenvolvedor web</span> e <span class="color-text-principal">web designer</span>. Em que posso ajudar?</h1>
+    
+                <div class="s1-botoes">
+                    <a href="#secao-2">
+                        <button>quero ver seu trabalho</button>
+                        <br>
+                        <button onclick="window.open('https://wa.me/5519982233738')">contatar agora</button>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="s1-image">
+                <div class="s1-image-background">
+                    <div class="s1-image-background-object"></div>
+                    <img src="Imagens/SVGs/app_development_SVG.svg" alt="">
+    
+                    
+                </div>
+            </div>
+    
+            <div class="s1-ondas-box">
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+                <div class="s1-onda"></div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="secao-2" id="secao-2">
+        <div class="dentro-secao-2">
+            <h2 class="title-h2">SERVIÇOS</h2>
+            <h1>transforme sua ideia em realidade</h1>
+            <p>Projeção, desenvolvimento e gerenciamento de sites e sistemas de alto desempenho.</p>
+
+            <div class="s2-services-box">
+                <div class="s2-service">
+                    <div class="s2-service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Web Design</h3>
+                    <p>Design, criação de layout e identidade visual de Web Sites/Sistems/Apps;</p>
+                </div>
+                <div class="s2-service">
+                    <div class="s2-service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Desenvolvimento de sites</h3>
+                    <p>Desenvolvimento de sites em geral: Sites funcionais (front e back); Sites institucionais; Landing Pages; Sistemas Web.</p>
+                </div>
+                <div class="s2-service">
+                    <div class="s2-service-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Manutenção de sites</h3>
+                    <p>Menutenção de sites e sistemas web; Redesign/Atualizações.</p>
+                </div>
+
+            </div>
+
+
+            <div class="s2-portifolio-button-box">
+                <a href="https://wa.me/5519982233738" class="s2-portifolio-button"><button><i class="fab fa-whatsapp"></i> contato via WhatsApp </button></a>
+            </div>
+
+           
+            
+        </div>
+
+
+        
+    </section>
+
+    <section class="secao-3" id="secao-3">
+        <div class="dentro-secao-3">
+            <h2 class="title-h2">PORTIFÓLIO</h2>
+            <h1>confira alguns projetos realizados</h1>
+
+            <div class="portifolio-box">
+                <div class="portifolio-item" onclick="abrirPortifolioModal('Site pessoal', 'Meu Web Site pessoal, onde apresento meu trabalho.', 'index.php', 'Imagens/SitesThumbs/luansiteThumb.png')">
+                    <img src="Imagens\SitesThumbs\luansiteThumb.png" alt="">
+                    <div class="portifolio-item-infos">
+                        <h2>Site pessoal</h2>
+                        <p class="portifolio-item-desc">Portifólio</p>
+                    </div>
+                </div>
+
+                <div class="portifolio-item" onclick="abrirPortifolioModal('Sparta Barbearia', 'Web site estático de barbearia fictíssio, criado especialmente para agregar ao meu perfil no Git Hub.', 'https://luanb7.github.io/spartabarbearia/', 'Imagens/SitesThumbs/spartabarbeariaThumb.png')">
+                    <img src="Imagens\SitesThumbs\spartabarbeariaThumb.png" alt="">
+                    <div class="portifolio-item-infos">
+                        <h2>Sparta Barbearia</h2>
+                        <p class="portifolio-item-desc">Web site</p>
+                    </div>
+                </div>
+
+                <div class="portifolio-item">
+                    <img src="" alt="">
+                    <div class="portifolio-item-infos">
+                        <h2>Nome do projeto</h2>
+                        <p class="portifolio-item-desc">Web site</p>
+                    </div>
+                </div>
+
+                <div class="portifolio-item">
+                    <img src="" alt="">
+                    <div class="portifolio-item-infos">
+                        <h2>Nome do projeto</h2>
+                        <p class="portifolio-item-desc">Web site</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="opniao-clientes-box">
+                <h2 class="title-h2">FEEDBACK</h2>
+                <h1>opnião de clientes</h1>
+
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="slide-card">
+                                <div class="dentro-slide-card">
+                                    <div class="slide-card-autor">
+                                        <h3><i class="fas fa-user"></i>Lorem Ipsum</h3>
+                                        <h4>Lorem Ipsum</h4>
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a quos accusamus necessitatibus ea quibusdam sed!</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                        <div class="slide-card">
+                                <div class="dentro-slide-card">
+                                    <div class="slide-card-autor">
+                                        <h3><i class="fas fa-user"></i>Lorem Ipsum</h3>
+                                        <h4>Lorem Ipsum</h4>
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a quos accusamus necessitatibus ea quibusdam sed!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                        <div class="slide-card">
+                                <div class="dentro-slide-card">
+                                    <div class="slide-card-autor">
+                                        <h3><i class="fas fa-user"></i>Lorem Ipsum</h3>
+                                        <h4>Lorem Ipsum</h4>
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a quos accusamus necessitatibus ea quibusdam sed!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="dentro-footer">
+            <div class="footer-image-box">
+                <img src="Imagens/Logos/LogoLuanColorida.png" alt="">
+            </div>
+            <div class="footer-links-rapidos">
+                <h3>links rápidos</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-angle-right"></i> início</a></li>
+                    <li><a href="#secao-3"><i class="fas fa-angle-right"></i> sobre mim</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i> meu trabalho</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i> meu portifólio</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i> contato</a></li>
+                
+                </ul>
+            </div>
+            <div class="footer-redes-sociais">
+                <h3>siga-me</h3>
+                <p>Acesse minhas redes sociais e fique por dentro do meu trabalho e novidades.</p>
+                <div class="footer-s-medias">
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/luan.webdev/"><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <div class="menu-button">
+        <label for="menu-lateral-check" id='menu-button-rodar'>
+            <i class="fas fa-bars" onclick="MenuOpen(document.getElementById('menu-lateral-check'), document.getElementById('menu-lateral'), document.getElementById('menu-lateral-fundo-escuro'), document.getElementById('menu-button-rodar'))"></i>
+        </label>
+        
+        <input type="checkbox" id="menu-lateral-check">
+    </div>
+
+    
+
+
+    <div class="menu-lateral-fundo-escuro" id="menu-lateral-fundo-escuro"></div>
+
+    <div class="menu-lateral" id="menu-lateral">
+        <nav>
+            <ul>
+                <li><a href="index.php" class="menu-lateral-a-selecionado">início <i class="fas fa-mug-hot"></i></a></li>
+                <li><a href="#secao-3">sobre mim <i class="fas fa-mug-hot"></i></a></li>
+                <li><a href="portifolio.php">portifólio <i class="fas fa-mug-hot"></i></a></li>
+                <li><a href="">contato <i class="fas fa-mug-hot"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="portifolio-item-modal" id="portifolio-item-modal">
+        <div class="portifolio-item-modal-img-box" id="portifolio-item-modal-img-box">
+    
+        </div>
+        <div class="portifolio-item-modal-conteudo">
+            <h1 id="portifolio-item-modal-nome">Nome do projeto</h1>
+            <p id="portifolio-item-modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem libero debitis unde aliquid magnam enim laboriosam autem ea possimus. Animi, porro consectetur expedita nam delectus deleniti. Ducimus, possimus id. Vitae!</p>
+        </div>
+
+        <div class="portifolio-item-modal-botoes-box">
+            <button id="portifolio-item-modal-botao-ver-mais">Ver mais</button>
+            <button onclick="fecharPortifolioModal()">Fechar</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="JS/global.js" type="text/javascript"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: false, //deixar true na ersão mobile
+        slidesPerView: 'auto',
+
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 1,
+            slideShadows: false, 
+        },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
+    </script>
+    
+</body>
+</html>
