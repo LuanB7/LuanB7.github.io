@@ -42,6 +42,18 @@ function MenuOpen(checkbox, menu, fundo_menu, botao) {
 
 }
 
+function MenuClose(checkbox, menu, fundo_menu, botao) {
+    checkbox.checked = false;
+    menu.style.transform = 'translateX(100%)';
+    console.log('Menu fechado');
+
+    fundo_menu.style.visibility = 'hidden';
+    fundo_menu.style.opacity = 0;
+
+    botao.style.transform = 'rotate(0)';
+    document.body.style.overflow = 'visible';
+}
+
 
 
 
