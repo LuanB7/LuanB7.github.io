@@ -49,18 +49,17 @@ html, body {
 body {
     font-family: 'TechnaSans';
     background-color: #1b2024;
+    background-color: rgb(19, 38, 54);
+
     color: white;
     letter-spacing: 1px;
-    word-spacing: 1px;
-    
-   
+    word-spacing: 1px; 
 }
 
 p {
     line-height: 1.618;
     padding-bottom: 0.7em;
     font-weight: lighter;
-
 }
 
 ::selection {
@@ -69,6 +68,7 @@ p {
 }
 
 header {
+    padding-top: 50px;
     height: 100px;
 
     width: 100%;
@@ -94,10 +94,6 @@ header ul {
     align-items: center;
     justify-content: flex-end;
     position: relative;
-
- 
-   
-
 }
 
 header li {
@@ -108,7 +104,6 @@ header li {
 
 .header-links {
     display: flex;
-    
 }
 
 .header-links a {
@@ -127,7 +122,6 @@ header li {
     height: 45%;
     position: absolute;
     left: 0;
-   
 }
 
 .header-logo img{
@@ -138,22 +132,18 @@ header li {
     font-size: 30px;
     color: rgba(255, 255, 255, 0.5);
     transition: 0.3s;
- 
     z-index: 1001;
     position: absolute;
-
     height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     display: none;
-
     top: 0;
     right: 7%;
 }
     .menu-button label {
         transition: 0.3s;
-        
     }
   
 
@@ -168,12 +158,11 @@ header li {
 footer {
     width: 100%;
     height: 180px;
-    background-color: #101314;
+    background-color: rgb(12, 25, 36);
     display: flex;
     justify-content: center;
     padding-top: calc(100px);
     padding-bottom: 100px;
-    
 }
 
     .dentro-footer {
@@ -188,7 +177,6 @@ footer {
 
     .footer-image-box, .footer-links-rapidos, .footer-redes-sociais {
         width: 33.333%;
-        
         height: 100%;
     }
 
@@ -247,10 +235,9 @@ footer {
 
 .menu-lateral {
     position: fixed;
-    background-color: #242a30;
+    background-color: rgb(28, 53, 75);
     right: 0;
     top: 0;
-
     width: 80%;
     height: 100%;
     z-index: 1000;
@@ -258,8 +245,6 @@ footer {
     display: none;
     transition: 0.3s ease-in-out;
     transform: translateX(100%);
-    
-    
 }
 
     .menu-lateral nav {
@@ -274,7 +259,6 @@ footer {
     }
         .menu-lateral ul li {
             list-style: none;
-            
         }
 
         .menu-lateral li a {
@@ -326,7 +310,6 @@ footer {
                 visibility: hidden;
                 opacity: 0;
                 transition: 0.3s;
-                
             }
 
             .menu-lateral li .menu-lateral-a-selecionado {
@@ -340,9 +323,6 @@ footer {
             .menu-lateral li .menu-lateral-a-selecionado i{
                 opacity: 1;
             }
-
-        
-
 
 @media screen and (max-width: 900px) {
 
@@ -371,9 +351,6 @@ footer {
         margin-left: 7%;
         margin-right: 7%;
     }
-
-
-
         
 
     /*s2*/
@@ -440,7 +417,6 @@ footer {
     max-width: 1600px;
 
 }
-
 
 header {
     display: flex;
